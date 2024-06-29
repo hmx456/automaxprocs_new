@@ -18,7 +18,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-package maxprocs
+package maxprocs_new
 
 import (
 	"bytes"
@@ -30,7 +30,7 @@ import (
 	"strconv"
 	"testing"
 
-	iruntime "go.uber.org/automaxprocs/internal/runtime"
+	iruntime "go.uber.org/automaxprocs/internal_new/runtime"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

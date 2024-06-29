@@ -18,7 +18,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-package maxprocs
+package maxprocs_new
 
 // Version is the current package version.
 const Version = "1.5.2"

@@ -24,10 +24,10 @@ cover:
 	go test -coverprofile=cover.out -covermode=atomic -coverpkg=./... ./...
 	go tool cover -html=cover.out -o cover.html
 
-$(GOLINT): tools/go.mod
+$(GOLINT): tools_new
 	cd tools && go install golang.org/x/lint/golint
 
-$(STATICCHECK): tools/go.mod
+$(STATICCHECK): tools_new
 	cd tools && go install honnef.co/go/tools/cmd/staticcheck@2023.1.2
 
 .PHONY: lint

@@ -5,9 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4653e9bd-a92e-4f50-b8c6-8d120960129d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/maxprocs/example_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/maxprocs/example_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maxprocs/maxprocs.go" beforeDir="false" afterPath="$PROJECT_DIR$/maxprocs/maxprocs.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maxprocs/maxprocs_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/maxprocs/maxprocs_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automaxprocs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/cgroup.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/cgroup.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/cgroup_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/cgroup_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/cgroups.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/cgroups.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/cgroups2.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/cgroups2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/cgroups2_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/cgroups2_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/cgroups_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/cgroups_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/errors.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/errors.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/mountpoint.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/mountpoint.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/mountpoint_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/mountpoint_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/subsys.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/subsys.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/subsys_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/subsys_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/cpu/cpu.cfs_period_us" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/cpu/cpu.cfs_period_us" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/cpu/cpu.cfs_quota_us" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/cpu/cpu.cfs_quota_us" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/empty/cpu.cfs_quota_us" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/empty/cpu.cfs_quota_us" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/invalid/cpu.cfs_quota_us" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/invalid/cpu.cfs_quota_us" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/undefined-period/cpu.cfs_quota_us" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/undefined-period/cpu.cfs_quota_us" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/undefined/cpu.cfs_period_us" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/undefined/cpu.cfs_period_us" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/undefined/cpu.cfs_quota_us" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/undefined/cpu.cfs_quota_us" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/v2/empty" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/v2/empty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/v2/invalid-max" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/v2/invalid-max" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/v2/invalid-period" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/v2/invalid-period" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/v2/only-max" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/v2/only-max" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/v2/set" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/v2/set" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/v2/too-few-fields" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/v2/too-few-fields" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/v2/too-many-fields" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/v2/too-many-fields" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/v2/unset" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/v2/unset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/v2/zero-period" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/v2/zero-period" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/zero-period/cpu.cfs_period_us" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/zero-period/cpu.cfs_period_us" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/cgroups/zero-period/cpu.cfs_quota_us" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/cgroups/zero-period/cpu.cfs_quota_us" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/proc/cgroups/cgroup" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/proc/cgroups/cgroup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/proc/cgroups/mountinfo" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/proc/cgroups/mountinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/proc/invalid-cgroup/cgroup" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/proc/invalid-cgroup/cgroup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/proc/invalid-mountinfo/mountinfo" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/proc/invalid-mountinfo/mountinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/proc/untranslatable/cgroup" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/proc/untranslatable/cgroup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/proc/untranslatable/mountinfo" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/proc/untranslatable/mountinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/proc/v2/cgroup-invalid" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/proc/v2/cgroup-invalid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/proc/v2/cgroup-no-match" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/proc/v2/cgroup-no-match" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/proc/v2/cgroup-root" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/proc/v2/cgroup-root" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/proc/v2/cgroup-subdir" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/proc/v2/cgroup-subdir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/proc/v2/mountinfo" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/proc/v2/mountinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/proc/v2/mountinfo-v1-v2" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/proc/v2/mountinfo-v1-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/testdata/proc/v2/mountinfo-v2" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/testdata/proc/v2/mountinfo-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/cgroups/util_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/cgroups/util_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/runtime/cpu_quota_linux.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/runtime/cpu_quota_linux.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/runtime/cpu_quota_linux_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/runtime/cpu_quota_linux_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/runtime/cpu_quota_unsupported.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/runtime/cpu_quota_unsupported.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/runtime/runtime.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal_new/runtime/runtime.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxprocs/example_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxprocs/maxprocs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxprocs/maxprocs_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxprocs/version.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/tools_new/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/tools_new/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/tools.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools_new/tools.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +73,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2iVI6TPohm1pCIejNuQstUWFVyv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,6 +84,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Go Test.TestLogger/override in go.uber.org/automaxprocs/maxprocs.executor": "Debug",
+    "Go Test.TestLogger/override in go.uber.org/automaxprocs/maxprocs_new.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
@@ -37,11 +93,13 @@
     "git-widget-placeholder": "master",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "C:/Users/hh",
+    "last_opened_file_path": "D:/gg/github/autimaxprocs_new",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.TestLogger/override in go.uber.org/automaxprocs/maxprocs_new">
     <configuration name="TestLogger/override in go.uber.org/automaxprocs/maxprocs" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="automaxprocs" />
       <working_directory value="$PROJECT_DIR$/maxprocs" />
@@ -54,8 +112,21 @@
       <pattern value="^\QTestLogger\E$/^\Qoverride\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestLogger/override in go.uber.org/automaxprocs/maxprocs_new" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="automaxprocs" />
+      <working_directory value="$PROJECT_DIR$/maxprocs_new" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go.uber.org/automaxprocs/maxprocs_new" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestLogger\E$/^\Qoverride\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestLogger/override in go.uber.org/automaxprocs/maxprocs_new" />
         <item itemvalue="Go Test.TestLogger/override in go.uber.org/automaxprocs/maxprocs" />
       </list>
     </recent_temporary>
